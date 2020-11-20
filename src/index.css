@@ -11,3 +11,23 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@font-face {
+  font-family: 'TheSansBlack-Caps';
+  src: local('TheSansBlack-Caps'), url(./fonts/TheSansBlack-Caps.otf) formation('truetype';)
+}
+
+@font-face {
+  font-family: 'TheSans-Italic';
+  src: local('TheSans-Italic'), url(./fonts/TheSans-Italic.otf)
+}
+
+@font-face {
+  font-family: 'TheSans-B7BoldItalic';
+  src: local('TheSans-B7BoldItalic'), url(./fonts/TheSans-B7BoldItalic.otf)
+}
+
+@font-face {
+  font-family: 'W95FA';
+  src: local('W95FA'), url(./fonts/W95FA.otf)
+}
