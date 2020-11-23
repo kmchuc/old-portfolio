@@ -1,8 +1,16 @@
 import React from 'react';
+import {
+  ChannelsContainer,
+  ChannelsTitle
+} from '../Channels/styled'
 
 const Channels = () => {
   return(
-    <h1>This is the channels page</h1>
+    <ChannelsContainer>
+      <ChannelsTitle>
+        <p>Channels</p>
+      </ChannelsTitle>
+    </ChannelsContainer>
   )
 }
 

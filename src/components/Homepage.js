@@ -96,13 +96,13 @@ const Homepage = () => {
         </StaticStuff>
         <Buttons>
           <HelpButton>
-            <Helpimg src={help} alt='help'></Helpimg>
+            <Helpimg src={help} alt='help' />
           </HelpButton>
           <ToolButton>
-            <Toolimg src={tool} alt='tool'></Toolimg>
+            <Toolimg src={tool} alt='tool' />
           </ToolButton>
           <SignInButton>
-            <SignInimg src={signin} alt='signin'></SignInimg>
+            <SignInimg src={signin} alt='signin' />
           </SignInButton>
         </Buttons>
         <ButtonLabels>
@@ -112,7 +112,7 @@ const Homepage = () => {
           <Setup>
             Setup
           </Setup>
-          <SignIn to="/channels">
+          <SignIn to="/loadingpage">
             Sign In
           </SignIn>
         </ButtonLabels>
