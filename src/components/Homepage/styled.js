@@ -34,7 +34,7 @@ export const LoginWindowTopBar = styled.div`
 export const SignInLabel = styled.div`
   margin-left: 30px; 
   font-family: W95FA;
-  font-size: 25px;
+  font-size: 23px;
   margin-top: 5px;
   color: #ffffff;
 `;
@@ -58,6 +58,7 @@ export const SignInExitButton = styled.div`
 
 export const LoginWindow = styled.div`
   display: flex;
+  flex-direction: column;
   justify-content: center;
   width: 260px;
   height: 180px;
@@ -69,9 +70,25 @@ export const LoginWindow = styled.div`
   margin-right: 19px;
 `;
 
+export const KimLogoDiv = styled.div`
+  justify-content: center;
+  align-items: center;
+  height: 20vh;
+  width: 17vw;
+`;
+
+export const KimLogo = styled.img`
+  height: 120px;
+  width: 120px;
+`;
+
 export const LoginWindowText = styled.div`
   display: flex;
   align-items: flex-end;
+  justify-content: center;
+  align-items: center;
+  height: 10vh;
+  width: 17vw;
 `;
 
 export const Kim = styled.p`
@@ -150,8 +167,8 @@ export const StaticStuff = styled.div`
 `;
 
 export const Checkbox = styled.div`
-  width: 15px;
-  height: 15px;
+  width: 13px;
+  height: 13px;
   margin-right: 5px;
   border: solid 1px #707070;
   background-color: #ffffff;
@@ -191,8 +208,8 @@ export const Buttons = styled.div`
 `;
 
 export const HelpButton = styled.div`
-  width: 30px;
-  height: 30px;
+  width: 20px;
+  height: 20px;
   box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
   border: solid 3px #707070;
   background-color: #ffffff;
@@ -200,14 +217,14 @@ export const HelpButton = styled.div`
 `;
 
 export const Helpimg = styled.img`
-  width: 20px;
-  height: 20px;
+  width: 15px;
+  height: 12px;
   margin-top: 5px;
 `;
 
 export const ToolButton = styled.div`
-  width: 30px;
-  height: 30px;
+  width: 20px;
+  height: 20px;
   box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
   border: solid 3px #707070;
   background-color: #ffffff;
@@ -215,14 +232,36 @@ export const ToolButton = styled.div`
 `;
 
 export const Toolimg = styled.img`
-  width: 20px;
-  height: 20px;
+  width: 15px;
+  height: 12px;
   margin-top: 5px;
 `;
 
-export const SignInButton = styled.button`
-  width: 50px;
-  height: 50px;
+export const ButtonLabels = styled.div`
+  display: flex;
+`;
+
+export const Help = styled.div`
+  width: 35px;
+  height: 18px;
+  margin-top: 3px;
+  margin-left: 22px;
+  font-family: W95FA;
+  font-size: 15px;
+`;
+
+export const Setup = styled.div`
+  width: 35px;
+  height: 18px;
+  margin-top: 3px;
+  margin-left: 10px;
+  font-family: W95FA;
+  font-size: 15px;
+`;
+
+export const SignInButton = styled.div`
+  width: 35px;
+  height: 35px;
   box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
   border: solid 3px #707070;
   background-color: #ffffff;
@@ -235,35 +274,13 @@ export const SignInimg = styled.img`
   margin-top: 3px;
 `;
 
-export const ButtonLabels = styled.div`
-  display: flex;
-`;
-
-export const Help = styled.div`
-  width: 35px;
-  height: 18px;
-  margin-top: 3px;
-  margin-left: 27px;
-  font-family: W95FA;
-  font-size: 20px;
-`;
-
-export const Setup = styled.div`
-  width: 35px;
-  height: 18px;
-  margin-top: 3px;
-  margin-left: 15px;
-  font-family: W95FA;
-  font-size: 20px;
-`;
-
 export const SignIn = styled(Link)`
   width: 80px;
   height: 18px;
   margin-top: 3px;
-  margin-left: 100px;
+  margin-left: 85px;
   font-family: W95FA;
-  font-size: 20px;
+  font-size: 15px;
 
   &.active {
     color: red;

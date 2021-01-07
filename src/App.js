@@ -1,10 +1,8 @@
 import React from 'react';
 import './App.css';
 import { HashRouter, Route } from 'react-router-dom';
-import Homepage from './components/Homepage';
-import Loadingpage from './LoadingPage/Loadingpage'
-import AboutMe from './components/AboutMe';
-import Channels from './components/Channels';
+import Homepage from './components/Homepage/Homepage';
+import Loadingpage from './components/LoadingPage/Loadingpage'
 
 function App() {
   return (
@@ -12,8 +10,7 @@ function App() {
       <div className='App'>
         <Route exact path="/" component={Homepage} />
         <Route path="/loadingpage" component={Loadingpage} />
-        <Route path="/channels" component={Channels} />
-        <Route path="/aboutme" component={AboutMe} />
+
       </div>
     </HashRouter>
   );
