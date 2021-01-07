@@ -60,6 +60,7 @@ export const LoginWindow = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
   width: 260px;
   height: 180px;
   color: white;
@@ -73,13 +74,15 @@ export const LoginWindow = styled.div`
 export const KimLogoDiv = styled.div`
   justify-content: center;
   align-items: center;
-  height: 20vh;
+  height: 10vh;
   width: 17vw;
+  margin-top: 15px;
 `;
 
 export const KimLogo = styled.img`
   height: 120px;
   width: 120px;
+  margin-top: 5px;
 `;
 
 export const LoginWindowText = styled.div`
@@ -89,6 +92,7 @@ export const LoginWindowText = styled.div`
   align-items: center;
   height: 10vh;
   width: 17vw;
+  margin-top: 10px;
 `;
 
 export const Kim = styled.p`
