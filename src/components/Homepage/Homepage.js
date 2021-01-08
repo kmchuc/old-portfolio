@@ -1,9 +1,10 @@
 import React from 'react';
 import styled from 'styled-components';
-import exit from '../images/exit.svg'
-import help from '../images/help.svg'
-import tool from '../images/tool.svg'
-import signin from '../images/sign-in.svg'
+import exit from './images/exit.svg';
+import help from './images/help.svg';
+import tool from './images/tool.svg';
+import signin from './images/sign-in.svg';
+import kimlogo from './images/kim-logo.svg';
 import {
   HomepageContainer,
   LoginWindowTopBar,
@@ -13,6 +14,8 @@ import {
   LoginWindow,
   Window,
   LoginWindowText,
+  KimLogoDiv,
+  KimLogo,
   Kim,
   InstantMessenger,
   Line,
@@ -56,6 +59,9 @@ const Homepage = () => {
         </LoginWindowTopBar>
       <Window>
         <LoginWindow>
+          <KimLogoDiv>
+            <KimLogo src={kimlogo} alt="Kim's Logo" />
+          </KimLogoDiv>
           <LoginWindowText>
             <Kim>KIM</Kim>
             <InstantMessenger>Instant Messenger</InstantMessenger>
@@ -96,13 +102,15 @@ const Homepage = () => {
         </StaticStuff>
         <Buttons>
           <HelpButton>
-            <Helpimg src={help} alt='help'></Helpimg>
+            <Helpimg src={help} alt='help' />
           </HelpButton>
           <ToolButton>
-            <Toolimg src={tool} alt='tool'></Toolimg>
+            <Toolimg src={tool} alt='tool' />
           </ToolButton>
           <SignInButton>
-            <SignInimg src={signin} alt='signin'></SignInimg>
+            <a href="#LoadingPage">
+              <SignInimg src={signin} alt="SignIn" />
+            </a>
           </SignInButton>
         </Buttons>
         <ButtonLabels>
@@ -112,7 +120,7 @@ const Homepage = () => {
           <Setup>
             Setup
           </Setup>
-          <SignIn to="/channels">
+          <SignIn to="/loadingpage/">
             Sign In
           </SignIn>
         </ButtonLabels>
