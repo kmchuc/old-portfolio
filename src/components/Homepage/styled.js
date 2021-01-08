@@ -74,15 +74,15 @@ export const LoginWindow = styled.div`
 export const KimLogoDiv = styled.div`
   justify-content: center;
   align-items: center;
-  height: 10vh;
+  height: 12vh;
   width: 17vw;
   margin-top: 15px;
+  margin-bottom: 3px;
 `;
 
 export const KimLogo = styled.img`
   height: 120px;
   width: 120px;
-  margin-top: 5px;
 `;
 
 export const LoginWindowText = styled.div`

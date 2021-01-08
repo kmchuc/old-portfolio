@@ -1,15 +1,36 @@
 import React from 'react';
-import { Frame, Scroll, useCycle } from 'framer';
-import kim_logo from './images/kim_logo.svg';
 import {
-    LoadingpageContainer
+    LoadingpageContainer,
+    LoadingOuterBox,
+    LoadingInnerBox,
+    LoadingBarDiv,
+    LoadingBar,
+    KimPic1,
+    WelcomeToKimsPortfolioDiv,
+    WelcomeToKimsPortfolioText
 } from './styled';
+import kimpic1 from './images/pic1.jpg';
 
 const Loadingpage = () => {
+
+    setTimeout(function() {
+        window.location.replace('#Projects');
+    }, 5000)
     return(
         <LoadingpageContainer>
-            Loading Page
-            
+            <LoadingOuterBox>
+                <LoadingInnerBox>
+                    <KimPic1 src={kimpic1} alt="Kim Pic 1" />
+                </LoadingInnerBox>
+                <WelcomeToKimsPortfolioDiv>
+                    <WelcomeToKimsPortfolioText>
+                    Loading Kim's Portfolio...
+                    </WelcomeToKimsPortfolioText>
+                </WelcomeToKimsPortfolioDiv>
+            </LoadingOuterBox>
+            <LoadingBarDiv>
+                <LoadingBar></LoadingBar>
+            </LoadingBarDiv>
         </LoadingpageContainer>
     )
 }
