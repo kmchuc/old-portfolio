@@ -14,7 +14,7 @@ import kimpic1 from './images/pic1.jpg';
 const Loadingpage = () => {
 
     setTimeout(function() {
-        window.location.replace('#Projects');
+        window.location.replace('#LandingPage');
     }, 5000)
     return(
         <LoadingpageContainer>
