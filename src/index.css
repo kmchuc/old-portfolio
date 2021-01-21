@@ -13,21 +13,56 @@ code {
 }
 
 @font-face {
-  font-family: 'TheSansBlack-Caps';
-  src: local('TheSansBlack-Caps'), url(./fonts/TheSansBlack-Caps.otf) formation('truetype';)
+  font-family: 'Copernicus-Book';
+  src: local('Copernicus-Book'), url(./fonts/Copernicus-Book.ttf)
 }
 
 @font-face {
-  font-family: 'TheSans-Italic';
-  src: local('TheSans-Italic'), url(./fonts/TheSans-Italic.otf)
+  font-family: 'Copernicus-Medium';
+  src: local('Copernicus-Medium'), url(./fonts/Copernicus-Medium.ttf)
 }
 
 @font-face {
-  font-family: 'TheSans-B7BoldItalic';
-  src: local('TheSans-B7BoldItalic'), url(./fonts/TheSans-B7BoldItalic.otf)
+  font-family: 'RomanaEF-Book';
+  src: local('RomanaEF-Book'), url(./fonts/RomanaEF-Book.otf)
 }
 
 @font-face {
-  font-family: 'W95FA';
-  src: local('W95FA'), url(./fonts/W95FA.otf)
+  font-family: 'RomanaEF-Light';
+  src: local('RomanaEF-Light'), url(./fonts/RomanaEF-Light.otf)
+}
+
+@font-face {
+  font-family: 'Schnyder S Light';
+  src: local('Schnyder S Light'), url(./fonts/Schnyder\ S\ Light.otf)
+}
+
+@font-face {
+  font-family: 'Schnyder M Light Italic';
+  src: local('Schnyder M Light Italic'), url(./fonts/Schnyder\ M\ Light\ Italic.otf)
+}
+
+@font-face {
+  font-family: 'Schnyder M Demi';
+  src: local('Schnyder M Demi'), url(./fonts/Schnyder\ M\ Demi.otf)
+}
+
+@font-face {
+  font-family: 'Nord-Light';
+  src: local('Nord-Light'), url(./fonts/Nord-Light.otf)
+}
+
+@font-face {
+  font-family: 'Gilmer-Light';
+  src: local('Gilmer-Light'), url(./fonts/Gilmer-Light.otf)
+}
+
+@font-face {
+  font-family: 'GTWalsheimPro-Light';
+  src: local('GTWalsheimPro-Light'), url(./fonts/GTWalsheimPro-Light.ttf)
+}
+
+@font-face {
+  font-family: 'Schnyder M Demi Italic';
+  src: local('Schnyder M Demi Italic'), url(./fonts/Schnyder\ M\ Demi\ Italic.otf)
 }
