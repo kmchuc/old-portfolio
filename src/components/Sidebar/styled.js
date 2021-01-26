@@ -5,7 +5,7 @@ import { Link as LinkS } from 'react-scroll';
 export const SidebarContainer = styled.aside`
     position: fixed;
     z-index: 999;
-    width: 100vw;
+    width: 100%;
     height: 100vh;
     background: white;
     display: grid;
@@ -60,7 +60,7 @@ export const SidebarLink = styled(LinkS)`
     cursor: pointer;
 
     &:hover {
-        color: red;
+        color: #0070A3;
         transition: 0.2 ease-in-out;
     }
 `;

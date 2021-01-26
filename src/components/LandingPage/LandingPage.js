@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import KimzPic from './kimzpic.jpg';
 
 import {
+  EntireLandingPageContainer,
   LandingPageContainer,
   KimzPicDiv,
   KimzImg,
@@ -21,7 +22,7 @@ import {
 
 const LandingPage = () => {
   return(
-    <>
+    <EntireLandingPageContainer id='home'>
     <LandingPageContainer>
         <KimzPicDiv>
           <KimzImg src={KimzPic} alt='KimzPic'/>
@@ -42,7 +43,7 @@ const LandingPage = () => {
         <LifeLong>Lifelong Learner</LifeLong>
       </SecondLineTexts>
     </FunctionsText>
-    </>
+    </EntireLandingPageContainer>
   )
 }
 
