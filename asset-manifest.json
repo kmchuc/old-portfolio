@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/kmchuc.github.io/kmchuc.github.io/static/css/main.3af86b50.chunk.css",
-    "main.js": "/kmchuc.github.io/kmchuc.github.io/static/js/main.b2af1118.chunk.js",
-    "main.js.map": "/kmchuc.github.io/kmchuc.github.io/static/js/main.b2af1118.chunk.js.map",
-    "runtime-main.js": "/kmchuc.github.io/kmchuc.github.io/static/js/runtime-main.f34f5f61.js",
-    "runtime-main.js.map": "/kmchuc.github.io/kmchuc.github.io/static/js/runtime-main.f34f5f61.js.map",
-    "static/js/2.b18ac61c.chunk.js": "/kmchuc.github.io/kmchuc.github.io/static/js/2.b18ac61c.chunk.js",
-    "static/js/2.b18ac61c.chunk.js.map": "/kmchuc.github.io/kmchuc.github.io/static/js/2.b18ac61c.chunk.js.map",
-    "static/js/3.eb3fa22b.chunk.js": "/kmchuc.github.io/kmchuc.github.io/static/js/3.eb3fa22b.chunk.js",
-    "static/js/3.eb3fa22b.chunk.js.map": "/kmchuc.github.io/kmchuc.github.io/static/js/3.eb3fa22b.chunk.js.map",
-    "index.html": "/kmchuc.github.io/kmchuc.github.io/index.html",
-    "static/css/main.3af86b50.chunk.css.map": "/kmchuc.github.io/kmchuc.github.io/static/css/main.3af86b50.chunk.css.map",
-    "static/js/2.b18ac61c.chunk.js.LICENSE.txt": "/kmchuc.github.io/kmchuc.github.io/static/js/2.b18ac61c.chunk.js.LICENSE.txt",
-    "static/media/BestNeighbor.25f27916.png": "/kmchuc.github.io/kmchuc.github.io/static/media/BestNeighbor.25f27916.png",
-    "static/media/index.css": "/kmchuc.github.io/kmchuc.github.io/static/media/Schnyder S Light.314a1213.otf",
-    "static/media/final_logo.2cb22661.png": "/kmchuc.github.io/kmchuc.github.io/static/media/final_logo.2cb22661.png",
-    "static/media/kimzpic.1a3159e7.jpg": "/kmchuc.github.io/kmchuc.github.io/static/media/kimzpic.1a3159e7.jpg",
-    "static/media/tracysbday.d87c23bc.png": "/kmchuc.github.io/kmchuc.github.io/static/media/tracysbday.d87c23bc.png"
+    "main.css": "/kmchuc.github.io/portfolio/static/css/main.241210a1.chunk.css",
+    "main.js": "/kmchuc.github.io/portfolio/static/js/main.b2af1118.chunk.js",
+    "main.js.map": "/kmchuc.github.io/portfolio/static/js/main.b2af1118.chunk.js.map",
+    "runtime-main.js": "/kmchuc.github.io/portfolio/static/js/runtime-main.16f1bf9f.js",
+    "runtime-main.js.map": "/kmchuc.github.io/portfolio/static/js/runtime-main.16f1bf9f.js.map",
+    "static/js/2.1c2769a5.chunk.js": "/kmchuc.github.io/portfolio/static/js/2.1c2769a5.chunk.js",
+    "static/js/2.1c2769a5.chunk.js.map": "/kmchuc.github.io/portfolio/static/js/2.1c2769a5.chunk.js.map",
+    "static/js/3.eb3fa22b.chunk.js": "/kmchuc.github.io/portfolio/static/js/3.eb3fa22b.chunk.js",
+    "static/js/3.eb3fa22b.chunk.js.map": "/kmchuc.github.io/portfolio/static/js/3.eb3fa22b.chunk.js.map",
+    "index.html": "/kmchuc.github.io/portfolio/index.html",
+    "static/css/main.241210a1.chunk.css.map": "/kmchuc.github.io/portfolio/static/css/main.241210a1.chunk.css.map",
+    "static/js/2.1c2769a5.chunk.js.LICENSE.txt": "/kmchuc.github.io/portfolio/static/js/2.1c2769a5.chunk.js.LICENSE.txt",
+    "static/media/BestNeighbor.25f27916.png": "/kmchuc.github.io/portfolio/static/media/BestNeighbor.25f27916.png",
+    "static/media/index.css": "/kmchuc.github.io/portfolio/static/media/Schnyder S Light.314a1213.otf",
+    "static/media/final_logo.2cb22661.png": "/kmchuc.github.io/portfolio/static/media/final_logo.2cb22661.png",
+    "static/media/kimzpic.1a3159e7.jpg": "/kmchuc.github.io/portfolio/static/media/kimzpic.1a3159e7.jpg",
+    "static/media/tracysbday.d87c23bc.png": "/kmchuc.github.io/portfolio/static/media/tracysbday.d87c23bc.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.f34f5f61.js",
-    "static/js/2.b18ac61c.chunk.js",
-    "static/css/main.3af86b50.chunk.css",
+    "static/js/runtime-main.16f1bf9f.js",
+    "static/js/2.1c2769a5.chunk.js",
+    "static/css/main.241210a1.chunk.css",
     "static/js/main.b2af1118.chunk.js"
   ]
 }
