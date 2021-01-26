@@ -1,5 +1,6 @@
 import React from 'react';
 import {
+    ContactMeContainer,
     TextDiv,
     LetsTalk,
     LinkTextDiv,
@@ -8,7 +9,7 @@ import {
 
 const ContactMe = () => {
     return(
-        <div>
+        <ContactMeContainer id='contactme'>
             <TextDiv>
                 <LetsTalk>Let's talk! Reach me at -</LetsTalk>
             </TextDiv>
@@ -17,7 +18,7 @@ const ContactMe = () => {
                 <SocialLinks href='https://www.linkedin.com/in/kimberlymchuc/' target='_blank'>linkedin.</SocialLinks>
                 <SocialLinks href='https://github.com/kmchuc' target='_blank'>github.</SocialLinks>
             </LinkTextDiv>
-        </div>
+        </ContactMeContainer>
     )
 }
 
