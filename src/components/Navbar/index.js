@@ -16,13 +16,13 @@ import {
 
 const Navbar = ({ toggle }) => {
 
-    const [scrollNav, setScroll] = useState(false);
+    const [scrollNav, setScrollNav] = useState(false);
 
     const changeNav = () => {
         if(window.scrollY >= 80) {
-            setScroll(true)
+            setScrollNav(true)
         } else {
-            setScroll(false)
+            setScrollNav(false)
         }
     }
 
@@ -36,7 +36,7 @@ const Navbar = ({ toggle }) => {
 
     return (
         <>
-            <Nav>
+            <Nav scrollNav={scrollNav}>
                 <NavbarContainer>
                     <NavLogo to='/' onClick={toggleHome}><NavLogoImg src={logo} alt='logo' /></NavLogo>
                     <MobileIcon onClick={toggle}>
