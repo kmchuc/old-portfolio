@@ -7,11 +7,11 @@ Kimberly Chuc's Portfolio
 Welcome to my portfolio's github! If you'd like to view it yourself, you can visit the site [here](https://kimberlychuc.com).
 
 ## Table of contents:
-* [The Process] (#the-process)
-* [Technologies] (#technologies)
-* [Setup] (#setup)
-* [Pages] (#pages)
-* [Reflection] (#reflection)
+* [The Process](#the-process)
+* [Technologies](#technologies)
+* [Setup](#setup)
+* [Pages](#pages)
+* [Reflection](#reflection)
 
 ## The Process
 I never realized how hard designing a website would be. I give major props to Web Designers, the process is a lot harder than one would think. I decided to use a mix of modern fonts and layouts. My portfolio presents the type of projects I've worked on, more about myself, what I've been up to during quarantine, and how to contact me. 
