@@ -12,10 +12,6 @@ export const LandingPageContainer = styled.div`
     z-index: 1;
     height: 100vh;
     width: 100%;
-
-    @media screen and (max-width: 480px) {
-        height: 80vh;
-    }
 `;
 
 export const KimzPicDiv = styled.div`
@@ -26,44 +22,32 @@ export const KimzPicDiv = styled.div`
     width: 375px;
     margin-top: -80px;
     overflow: hidden;
-    
-    @media screen and (max-width: 768px) {
-        margin-top: -100px;
-    }
 
-    @media only screen and (min-width: 1400px) {
-        margin-top: -30px;
-    }    
+    @media screen and (device-width: 414px) {
+        height: 300px;
+        width: 300px;
+    }
 `;
 
 export const KimzImg = styled.img`
     display: block;
+    height: auto;
     width: auto;
 `;
 
 export const KimberlyText = styled.p`
+    position: absolute;
     font-family: Schnyder M Demi;
     font-size: 90px;
     line-height: 112px;
     color: black;
     
-    @media only screen and (max-width: 480px) {
+    @media only screen and (device-width: 414px) {
         position: absolute;
-        top: -30px;
-        left: 25px;
+        top: -5px;
+        left: 50px;
     }
 
-    @media only screen and (max-width: 768px) {
-        position: absolute;
-        top: -70px;
-        left: 80px;
-    }
-
-    @media screen and (min-width: 768px) {
-        position: absolute;
-        top: -20px;
-        left: 378px;
-    }
 `;
 
 export const ChucText = styled.p`
@@ -73,21 +57,10 @@ export const ChucText = styled.p`
     line-height: 112px;
     color: black;
 
-    @media screen and (max-width: 480px) {
+    @media screen and (device-width: 414px) {
         position: absolute;
-        top: 388px;
-        left: 85px;
-    }
-
-    @media screen and (max-width: 768px) {
-        position: absolute;
-        top: 380px;
-        left: 150px;
-    }
-
-    @media screen and (min-width: 768px) {
-        top: 370px;
-        left: 870px;
+        top: 368px;
+        left: 115px;
     }
 `;
 
@@ -109,7 +82,7 @@ export const SoftwareEnginerDiv = styled.div`
     height: 20vh;
     width: 100%;
 
-    @media screen and (max-width: 480px) {
+    @media screen and (device-width: 414px) {
         justify-content: space-evenly;
         height: 20vh;
         width: 90vw;
@@ -121,14 +94,9 @@ export const SoftwareEngineerText = styled.p`
     font-size: 85px;
     color: black;
 
-    @media screen and (max-width: 480px) {
-        font-size: 40px;
-        width: 140px;
-    }
-
-    @media screen and (max-width: 768px) {
-        font-size: 60px;
-        width: 200px;
+    @media screen and (device-width: 414px) {
+        font-size: 45px;
+        width: 150px;
     }
 `;
 
@@ -137,7 +105,7 @@ export const Character = styled.p`
     font-size: 85px;
     color: #DAD5C9;
 
-    @media screen and (max-width: 480px) {
+    @media screen and (device-width: 414px) {
         font-size: 50px;
         width: 20px;
     }
@@ -147,14 +115,9 @@ export const Amateur = styled.p`
     font-family: RomanaEF-Light;
     font-size: 75px;
 
-    @media screen and (max-width: 480px) {
+    @media screen and (device-width: 414px) {
         font-size: 35px;
         width: 120px;
-    }
-
-    @media screen and (max-width: 768px) {
-        font-size: 50px;
-        width: 170px;
     }
 `;
 
@@ -163,22 +126,10 @@ export const FnBText = styled.p`
     font-family: RomanaEF-Book;
     color: #DAD5C9;
 
-    @media screen and (max-width: 480px) {
-        font-size: 18px;
-        top: 1025px;
-        left: 35px;
-    }
-
-    @media screen and (max-width: 768px) {
-        font-size: 25px;
-        top: 973px;
-        left: 28px;
-    }
-
-    @media screen and (min-width: 768px) {
-        font-size: 50px;
-        top: 950px;
-        left: 267px;
+    @media screen and (device-width: 414px) {
+        font-size: 20px;
+        top: 1110px;
+        left: 40px;
     }
 `;
 
@@ -192,7 +143,7 @@ export const SecondLineTexts = styled.div`
     height: 30vh;
     width: 100%;
 
-    @media screen and (max-width: 480px) {
+    @media screen and (device-width: 414px) {
         height: 10vh;
         width: 100vw;
         justify-content: space-evenly;
@@ -202,18 +153,9 @@ export const SecondLineTexts = styled.div`
 export const Avid = styled.p`
     font-family: RomanaEF-Light;
 
-    @media screen and (max-width: 480px) {
+    @media screen and (device-width: 414px) {
         font-size: 40px;
-        width: 75px;
-    }
-
-    @media screen and (max-width: 768px) {
-        font-size: 55px;
-        width: 120px;
-    }
-
-    @media screen and (min-width: 768px) {
-        font-size: 85px;
+        width: 85px;
     }
 `;
 
@@ -223,7 +165,7 @@ export const AndChar = styled.p`
     font-size: 85px;
     color: #DAD5C9;
 
-    @media screen and (max-width: 480px) {
+    @media screen and (device-width: 414px) {
         font-size: 50px;
     }
 `;
@@ -232,13 +174,8 @@ export const LifeLong = styled.p`
     font-family: RomanaEF-Book;
     font-size: 85px;
 
-    @media screen and (max-width: 480px) {
+    @media screen and (device-width: 414px) {
         font-size: 40px;
         width: 130px;
-    }
-
-    @media screen and (max-width: 768px) {
-        font-size: 60px;
-        width: 180px;
     }
 `;
