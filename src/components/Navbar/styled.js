@@ -23,8 +23,7 @@ export const NavbarContainer = styled.div`
     display: flex;
     height: 100%;
     z-index: 1;
-    width: 100%;
-    max-width: 1350px;
+    width: 95%;
 `;
 
 export const NavLogo = styled(LinkR)`

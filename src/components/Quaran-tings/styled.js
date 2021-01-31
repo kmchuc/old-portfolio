@@ -22,6 +22,10 @@ export const QuarantingsTitle = styled.div`
         font-size: 90px;
         width: 90%;
     }
+
+    @media screen and (max-width: 768px) {
+        text-align: center;
+    }
 `;
 
 export const QuarantingsDiv = styled.div`
@@ -67,10 +71,10 @@ export const SeparateDiv = styled.div`
     @media screen and (max-width: 480px) {
         flex-direction: column;  
     }
-`;
 
-export const HorizontalLine = styled.p`
-    font-size: 30px;
+    @media screen and (max-width: 768px) {
+        flex-direction: column;
+    }
 `;
 
 export const LinkStyle = styled.a`

@@ -7,7 +7,6 @@ import {
     ActivityList,
     PodcastTitle,
     SeparateDiv,
-    HorizontalLine,
     LinkStyle
 } from './styled';
 

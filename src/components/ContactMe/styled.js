@@ -27,6 +27,11 @@ export const LetsTalk = styled.p`
         text-align: center;
         margin-bottom: 0px;
     }
+
+    @media screen and (max-width: 768px) {
+        font-size: 70px;
+        text-align: center;
+    }
 `;
 
 export const LinkTextDiv = styled.div`
@@ -44,6 +49,12 @@ export const LinkTextDiv = styled.div`
         justify-content: space-evenly;
         flex-direction: column;
         font-size: 50px;
+    }
+
+    @media screen and (max-width: 768px) {
+        flex-direction: column;
+        text-align: center;
+        justify-content: space-evenly;
     }
 `;
 

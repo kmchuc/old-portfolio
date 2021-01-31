@@ -30,6 +30,10 @@ export const ImgandTextDiv = styled.div`
     @media screen and (max-width: 480px) {
         flex-direction: column;
     }
+
+    @media screen and (max-width: 768px) {
+        flex-direction: column;
+    }
 `;
 
 export const KimzImgDiv = styled.div`
@@ -40,6 +44,12 @@ export const KimzImgDiv = styled.div`
     overflow: hidden;
 
     @media screen and (max-width: 480px) {
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    @media screen and (max-width: 768px) {
         justify-content: center;
         align-items: center;
         width: 100%;
@@ -55,12 +65,17 @@ export const KimzImg = styled.img`
         height: 95%;
         width: 90%;
     }
+
+    @media screen and (max-width: 768px) {
+        height: 95%;
+        width: 90%;
+    }
 `;
 
 export const AboutMeDiv = styled.div`
     display: flex;
     justify-content: center;
-    align-items: flex-end;
+    align-items: center;
     margin: auto;
     height: 60vh;
     width: 50%;
@@ -68,15 +83,26 @@ export const AboutMeDiv = styled.div`
     @media screen and (max-width: 480px) {
         width: 90%;
     }
+
+    @media screen and (max-width: 768px) {
+        width: 90%;
+    }
 `;
 
-export const AboutMeText = styled.h4`
+export const AboutMeText = styled.p`
     text-align: left;
+    align-content: center;
+    
     font-family: RomanaEF-Book;
     font-size: 25px;
 
     @media screen and (max-width: 480px){
         font-size: 22px;
+        text-align: center;
+    }
+
+    @media screen and (max-width: 768px) {
+        font-size: 20px;
         text-align: center;
     }
 `;
