@@ -23,6 +23,11 @@ export const KimzPicDiv = styled.div`
     margin-top: -80px;
     overflow: hidden;
 
+    @media screen and (device-width: 375px) {
+        height: 300px;
+        width: 300px;
+    }
+
     @media screen and (device-width: 414px) {
         height: 300px;
         width: 300px;
@@ -41,6 +46,12 @@ export const KimberlyText = styled.p`
     font-size: 90px;
     line-height: 112px;
     color: black;
+
+    @media screen and (device-width: 375px) {
+        position: absolute;
+        top: -40px;
+        left: 30px;
+    }
     
     @media only screen and (device-width: 414px) {
         position: absolute;
@@ -56,6 +67,12 @@ export const ChucText = styled.p`
     font-size: 90px;
     line-height: 112px;
     color: black;
+
+    @media screen and (device-width: 375px) {
+        position: absolute;
+        top: 335px;
+        left: 97px;
+    }
 
     @media screen and (device-width: 414px) {
         position: absolute;
@@ -94,6 +111,11 @@ export const SoftwareEngineerText = styled.p`
     font-size: 85px;
     color: black;
 
+    @media screen and (device-width: 375px) {
+        font-size: 40px;
+        width: 135px;
+    }
+
     @media screen and (device-width: 414px) {
         font-size: 45px;
         width: 150px;
@@ -105,6 +127,10 @@ export const Character = styled.p`
     font-size: 85px;
     color: #DAD5C9;
 
+    @media screen and (device-width: 375px) {
+        font-size: 50px;
+    }
+
     @media screen and (device-width: 414px) {
         font-size: 50px;
         width: 20px;
@@ -114,6 +140,11 @@ export const Character = styled.p`
 export const Amateur = styled.p`
     font-family: RomanaEF-Light;
     font-size: 75px;
+
+    @media screen and (device-width: 375px) {
+        font-size: 35px;
+        width: 120px;
+    }
 
     @media screen and (device-width: 414px) {
         font-size: 35px;
@@ -125,6 +156,12 @@ export const FnBText = styled.p`
     position: absolute;
     font-family: RomanaEF-Book;
     color: #DAD5C9;
+
+    @media screen and (device-width: 375px) {
+        font-size: 17px;
+        top: 950px;
+        left: 30px;
+    }
 
     @media screen and (device-width: 414px) {
         font-size: 20px;
@@ -153,6 +190,10 @@ export const SecondLineTexts = styled.div`
 export const Avid = styled.p`
     font-family: RomanaEF-Light;
 
+    @media screen and (device-width: 375px) {
+        font-size: 35px;
+    }
+
     @media screen and (device-width: 414px) {
         font-size: 40px;
         width: 85px;
@@ -165,6 +206,10 @@ export const AndChar = styled.p`
     font-size: 85px;
     color: #DAD5C9;
 
+    @media screen and (device-width: 375px) {
+        font-size: 50px;
+    }
+
     @media screen and (device-width: 414px) {
         font-size: 50px;
     }
@@ -173,6 +218,11 @@ export const AndChar = styled.p`
 export const LifeLong = styled.p`
     font-family: RomanaEF-Book;
     font-size: 85px;
+
+    @media screen and (device-width: 375px) {
+        font-size: 40px;
+        width: 120px;
+    }
 
     @media screen and (device-width: 414px) {
         font-size: 40px;
