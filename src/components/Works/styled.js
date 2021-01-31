@@ -31,6 +31,10 @@ export const WorksDiv = styled.div`
     @media screen and (max-width: 480px) {
         flex-direction: column;
     }
+
+    @media screen and (max-width: 768px) {
+        flex-direction: column;
+    }
 `;
 
 export const WorksImg = styled.div`
@@ -42,6 +46,11 @@ export const WorksImg = styled.div`
     background-color: #dad5c9;
 
     @media screen and (max-width: 480px) {
+        height: 50vh;
+        width: 100%;
+    }
+
+    @media screen and (max-width: 768px) {
         height: 50vh;
         width: 100%;
     }
@@ -64,6 +73,11 @@ export const WorksTextDiv = styled.div`
     width: 40vw;
     
     @media screen and (max-width: 480px) {
+        height: 100vh;
+        width: 95%;
+    }
+
+    @media screen and (max-width: 768px) {
         height: 100vh;
         width: 95%;
     }
@@ -91,6 +105,10 @@ export const WorkDescrip = styled.p`
     @media screen and (max-width: 480px){
         text-align: center;
     }
+
+    @media screen and (max-width: 768px) {
+        text-align: center;
+    }
 `;
 
 export const BestNeighborImg = styled.img`
@@ -100,6 +118,11 @@ export const BestNeighborImg = styled.img`
     width: 490px;
 
     @media screen and (max-width: 480px) {
+        height: auto;
+        width: 100%;
+    }
+
+    @media screen and (max-width: 768px) {
         height: auto;
         width: 100%;
     }
