@@ -72,7 +72,7 @@ export const KimberlyText = styled.p`
     
     @media screen and (device-width: 414px){
         position: absolute;
-        font-size: 95px;
+        font-size: 90px;
         top: -89px;
         left: 35px;
     }
