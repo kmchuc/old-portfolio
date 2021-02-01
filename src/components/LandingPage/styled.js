@@ -73,7 +73,7 @@ export const KimberlyText = styled.p`
     @media screen and (device-width: 414px){
         position: absolute;
         font-size: 90px;
-        top: -89px;
+        top: -91px;
         left: 50px;
     }
 
@@ -120,7 +120,7 @@ export const ChucText = styled.p`
     @media screen and (device-width: 414px){
         position: absolute;
         top: 205px;
-        left: 116px;
+        left: 60px;
     }
 
     @media screen and (width: 500px) {
