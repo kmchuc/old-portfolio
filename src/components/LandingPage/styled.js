@@ -41,6 +41,11 @@ export const KimzPicDiv = styled.div`
 export const KimzImg = styled.img`
     height: auto;
     width: auto;
+
+    @media screen and (device-width: 414px) and (device-height : 667px){
+        height: 300px;
+        width: 300px;
+    }
 `;
 
 export const KimberlyText = styled.p`
