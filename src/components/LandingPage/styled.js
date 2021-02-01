@@ -16,7 +16,6 @@ export const LandingPageContainer = styled.div`
 
 export const KimzPicDiv = styled.div`
     display: flex;
-    position: relative;
     justify-content: center;
     height: 375px;
     width: 375px;
@@ -40,7 +39,6 @@ export const KimzPicDiv = styled.div`
 `;
 
 export const KimzImg = styled.img`
-    display: block;
     height: auto;
     width: auto;
 `;
