@@ -33,7 +33,7 @@ export const KimzPicDiv = styled.div`
     }
 
     @media screen and (device-width: 414px){
-        margin-top: -217px;
+        margin-top: -214px;
         height: 300px;
         width: 300px;
     }
@@ -119,7 +119,7 @@ export const ChucText = styled.p`
 
     @media screen and (device-width: 414px){
         position: absolute;
-        top: 405px;
+        top: 205px;
         left: 116px;
     }
 
