@@ -33,8 +33,8 @@ export const KimzPicDiv = styled.div`
     }
 
     @media screen and (device-width: 414px) and (device-height : 667px) and (-webkit-device-pixel-ratio : 3){
-        height: 300px;
-        width: 300px;
+        height: 250px;
+        width: 250px;
     }
 `;
 
@@ -43,9 +43,7 @@ export const KimzImg = styled.img`
     height: auto;
 
     @media screen and (device-width: 414px) and (device-height : 667px) and (-webkit-device-pixel-ratio : 3){
-        object-fit: cover;
-        object-position: center;
-        
+        object-fit: cover;        
     }
 `;
 
