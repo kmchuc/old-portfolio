@@ -39,12 +39,10 @@ export const KimzPicDiv = styled.div`
 `;
 
 export const KimzImg = styled.img`
-    height: auto;
-    width: auto;
+    object-fit: cover;
 
     @media screen and (device-width: 414px) and (device-height : 667px) and (-webkit-device-pixel-ratio : 3){
-        height: 300px;
-        width: 300px;
+        object-fit: cover;
     }
 `;
 
