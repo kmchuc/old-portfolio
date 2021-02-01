@@ -83,6 +83,12 @@ export const KimberlyText = styled.p`
         left: 80px;
     }
 
+    @media screen and (width: 1280px) and (height:800px){
+        position: absolute;
+        top: 10px;
+        left: 310px;
+    }
+
     @media screen and (width: 1280px) and (height: 944px){
         position: absolute;
         top: 75px;
@@ -126,6 +132,11 @@ export const ChucText = styled.p`
     @media screen and (width: 500px) {
         top: 390px;
         left: 154px;
+    }
+
+    @media screen and (width: 1280px) and (height:800px){
+        top: 390px;
+        left: 800px;
     }
 
     @media screen and (width: 1280px) and (height: 944px){
@@ -276,6 +287,12 @@ export const FnBText = styled.p`
         font-size: 30px;
         top: 960px;
         left: 15px;
+    }
+
+    @media screen and (width: 1280px) and (height:800px){
+        font-size: 70px;
+        top: 1040px;
+        left: 50px;
     }
 
     @media screen and (width: 1280px) and (height: 944px){
