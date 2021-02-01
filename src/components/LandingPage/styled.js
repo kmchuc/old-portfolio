@@ -70,7 +70,7 @@ export const KimberlyText = styled.p`
         left: 23px;
     }
     
-    @media screen and (device-width: 414px) and (device-height : 736px) and (-webkit-device-pixel-ratio : 3){
+    @media screen and (device-width: 414px){
         position: absolute;
         font-size: 95px;
         top: -49px;
