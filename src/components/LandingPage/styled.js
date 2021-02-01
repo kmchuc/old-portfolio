@@ -266,9 +266,9 @@ export const FnBText = styled.p`
         left: 30px;
     }
 
-    @media screen and (device-width: 414px) and (device-height : 736px){
+    @media screen and (device-width: 414px){
         font-size: 25px;
-        top: 1058px;
+        top: 1000px;
         left: 28px;
     }
 
