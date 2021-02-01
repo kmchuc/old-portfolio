@@ -31,13 +31,18 @@ export const KimzPicDiv = styled.div`
         height: 350px;
         width: 350px;
     }
+
+    @media screen and (device-width: 414px){
+        height: 300px;
+        width: 300px;
+    }
 `;
 
 export const KimzImg = styled.img`
-    object-fit: cover;
-
+    display: block; 
+    
     @media screen and (device-width: 414px){
-        object-fit: cover;
+        display: block;
     }
 `;
 
