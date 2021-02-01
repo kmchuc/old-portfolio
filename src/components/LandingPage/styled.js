@@ -78,6 +78,18 @@ export const KimberlyText = styled.p`
         top: -60px;
         left: 80px;
     }
+
+    @media screen and (width: 1280px) and (height: 944px){
+        position: absolute;
+        top: 75px;
+        left: 300px;
+    }
+
+    @media screen and (width: 2560px) and (height: 944px){
+        position: absolute;
+        top: 75px;
+        left: 930px;
+    }
 `;
 
 export const ChucText = styled.p`
@@ -110,6 +122,16 @@ export const ChucText = styled.p`
     @media screen and (width: 500px) {
         top: 390px;
         left: 154px;
+    }
+
+    @media screen and (width: 1280px) and (height: 944px){
+        top: 480px;
+        left: 790px;
+    }
+
+    @media screen and (width: 2560px) and (height: 944px){
+        top: 470px;
+        left: 1430px;
     }
 `;
 
@@ -162,6 +184,10 @@ export const SoftwareEngineerText = styled.p`
         font-size: 60px;
         width: 200px;
     }
+
+    @media screen and (width: 2560px) and (height: 944px){
+        font-size: 130px;
+    }
 `;
 
 export const Character = styled.p`
@@ -180,6 +206,10 @@ export const Character = styled.p`
     @media screen and (device-width: 414px) and (device-height : 736px){
         font-size: 60px;
         width: 20px;
+    }
+
+    @media screen and (width: 2560px) and (height: 944px){
+        font-size: 110px;
     }
 `;
 
@@ -205,6 +235,10 @@ export const Amateur = styled.p`
     @media screen and (width: 500px){
         font-size: 55px;
         width: 170px;
+    }
+
+    @media screen and (width: 2560px) and (height: 944px){
+        font-size: 130px;
     }
 `;
 
@@ -238,6 +272,17 @@ export const FnBText = styled.p`
         font-size: 30px;
         top: 960px;
         left: 15px;
+    }
+
+    @media screen and (width: 1280px) and (height: 944px){
+        top: 1270px;
+        left: 227px;
+    }
+
+    @media screen and (width: 2560px) and (height: 944px){
+        font-size: 80px;
+        top: 1200px;
+        left: 443px;
     }
 `;
 
@@ -283,6 +328,10 @@ export const Avid = styled.p`
         font-size: 60px;
         width: 150px;
     }
+
+    @media screen and (width: 2560px) and (height: 944px){
+        font-size: 130px;
+    }
 `;
 
 export const AndChar = styled.p`
@@ -301,6 +350,10 @@ export const AndChar = styled.p`
 
     @media screen and (device-width: 414px) and (device-height : 736px){
         font-size: 60px;
+    }
+
+    @media screen and (width: 2560px) and (height: 944px){
+        font-size: 110px;
     }
 `;
 
@@ -326,5 +379,9 @@ export const LifeLong = styled.p`
     @media screen and (width: 500px){
         font-size: 60px;
         width: 180px;
+    }
+
+    @media screen and (width: 2560px) and (height: 944px){
+        font-size: 130px;
     }
 `;
