@@ -32,7 +32,7 @@ export const KimzPicDiv = styled.div`
         width: 350px;
     }
 
-    @media screen and (device-width: 414px) and (device-height : 667px) {
+    @media screen and (device-width: 414px) and (device-height : 667px) and (-webkit-device-pixel-ratio : 3){
         height: 300px;
         width: 300px;
     }
@@ -42,7 +42,7 @@ export const KimzImg = styled.img`
     height: auto;
     width: auto;
 
-    @media screen and (device-width: 414px) and (device-height : 667px){
+    @media screen and (device-width: 414px) and (device-height : 667px) and (-webkit-device-pixel-ratio : 3){
         height: 300px;
         width: 300px;
     }
@@ -69,7 +69,7 @@ export const KimberlyText = styled.p`
         left: 23px;
     }
     
-    @media screen and (device-width: 414px) and (device-height : 736px){
+    @media screen and (device-width: 414px) and (device-height : 736px) and (-webkit-device-pixel-ratio : 3){
         position: absolute;
         font-size: 95px;
         top: -49px;
@@ -116,7 +116,7 @@ export const ChucText = styled.p`
         left: 95px;
     }
 
-    @media screen and (device-width: 414px) and (device-height : 736px){
+    @media screen and (device-width: 414px) and (device-height : 736px) and (-webkit-device-pixel-ratio : 3){
         position: absolute;
         top: 405px;
         left: 116px;
