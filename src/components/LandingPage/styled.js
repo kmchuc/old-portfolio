@@ -37,7 +37,7 @@ export const KimzImg = styled.img`
     object-fit: cover;
 
     @media screen and (device-width: 414px) and (device-height : 667px) and (-webkit-device-pixel-ratio : 3){
-        object-fit: contain;
+        object-fit: fill;
     }
 `;
 
