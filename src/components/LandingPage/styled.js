@@ -33,7 +33,7 @@ export const KimzPicDiv = styled.div`
     }
 
     @media screen and (device-width: 414px){
-        margin-top: -200px;
+        margin-top: -220px;
         height: 300px;
         width: 300px;
     }
