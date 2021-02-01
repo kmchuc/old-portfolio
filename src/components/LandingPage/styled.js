@@ -119,8 +119,8 @@ export const ChucText = styled.p`
 
     @media screen and (device-width: 414px){
         position: absolute;
-        top: 275px;
-        left: 120px;
+        top: 285px;
+        left: 115px;
     }
 
     @media screen and (width: 500px) {
