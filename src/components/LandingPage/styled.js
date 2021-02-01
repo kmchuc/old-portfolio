@@ -40,9 +40,11 @@ export const KimzPicDiv = styled.div`
 
 export const KimzImg = styled.img`
     display: block; 
-    
+
     @media screen and (device-width: 414px){
         display: block;
+        height: 100%;
+        width: auto;
     }
 `;
 
