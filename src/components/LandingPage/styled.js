@@ -39,12 +39,7 @@ export const KimzPicDiv = styled.div`
 `;
 
 export const KimzImg = styled.img`
-    width: auto;
-    height: auto;
 
-    @media screen and (device-width: 414px) and (device-height : 667px) and (-webkit-device-pixel-ratio : 3){
-        object-fit: cover;        
-    }
 `;
 
 export const KimberlyText = styled.p`
