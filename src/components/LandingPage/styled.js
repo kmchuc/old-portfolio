@@ -39,7 +39,7 @@ export const KimzPicDiv = styled.div`
 `;
 
 export const KimzImg = styled.img`
-
+    object-fit: cover;
 `;
 
 export const KimberlyText = styled.p`
