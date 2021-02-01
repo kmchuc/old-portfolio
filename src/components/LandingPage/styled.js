@@ -43,9 +43,9 @@ export const KimzImg = styled.img`
     height: auto;
 
     @media screen and (device-width: 414px) and (device-height : 667px) and (-webkit-device-pixel-ratio : 3){
-        width: auto;
-        height: auto;
+        height: 300px;
         object-fit: cover;
+        object-position: center;
         
     }
 `;
