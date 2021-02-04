@@ -22,14 +22,9 @@ export const KimzPicDiv = styled.div`
     margin-top: -80px;
     overflow: hidden;
 
-    @media screen and (device-width: 375px) and (device-height : 667px) {
+    @media screen and (device-width: 375px){
         height: 300px;
         width: 300px;
-    }
-
-    @media screen and (device-width: 375px) and (device-height: 812px) {
-        height: 350px;
-        width: 350px;
     }
 
     @media screen and (device-width: 414px){
@@ -41,6 +36,12 @@ export const KimzPicDiv = styled.div`
 
 export const KimzImg = styled.img`
     display: block; 
+
+    @media screen and (devide-width: 375px){
+        display: block;
+        height: 100%;
+        width: auto;
+    }
 
     @media screen and (device-width: 414px){
         display: block;
@@ -57,14 +58,8 @@ export const KimberlyText = styled.p`
     top: -40px;
     left: 380px;
     color: black;
-
-    @media screen and (device-width: 375px) and (device-height : 667px) {
-        position: absolute;
-        top: -40px;
-        left: 30px;
-    }
     
-    @media screen and (device-width: 375px) and (device-height: 812px) {
+    @media screen and (device-width: 375px){
         position: absolute;
         top: 8px;
         left: 23px;
@@ -111,13 +106,7 @@ export const ChucText = styled.p`
     left: 870px;
     color: black;
 
-    @media screen and (device-width: 375px) and (device-height : 667px) {
-        position: absolute;
-        top: 335px;
-        left: 97px;
-    }
-
-    @media screen and (device-width: 375px) and (device-height: 812px) {
+    @media screen and (device-width: 375px){
         position: absolute;
         top: 430px;
         left: 95px;
@@ -180,17 +169,12 @@ export const SoftwareEngineerText = styled.p`
     font-size: 85px;
     color: black;
 
-    @media screen and (device-width: 375px) and (device-height : 667px) {
-        font-size: 40px;
-        width: 135px;
-    }
-
-    @media screen and (device-width: 375px) and (device-height: 812px) {
+    @media screen and (device-width: 375px){
         font-size: 40px;
         width: 130px;
     }
 
-    @media screen and (device-width: 414px) and (device-height : 736px){
+    @media screen and (device-width: 414px){
         font-size: 50px;
         width: 170px;
     }
@@ -200,7 +184,7 @@ export const SoftwareEngineerText = styled.p`
         width: 200px;
     }
 
-    @media screen and (width: 2560px) and (height: 944px){
+    @media screen and (width: 2560px){
         font-size: 130px;
     }
 `;
@@ -210,15 +194,11 @@ export const Character = styled.p`
     font-size: 85px;
     color: #DAD5C9;
 
-    @media screen and (device-width: 375px) and (device-height : 667px) {
+    @media screen and (device-width: 375px){
         font-size: 50px;
     }
 
-    @media screen and (device-width: 375px) and (device-height: 812px){
-        font-size: 50px;
-    }
-
-    @media screen and (device-width: 414px) and (device-height : 736px){
+    @media screen and (device-width: 414px){
         font-size: 60px;
         width: 20px;
     }
@@ -232,17 +212,12 @@ export const Amateur = styled.p`
     font-family: RomanaEF-Light;
     font-size: 75px;
 
-    @media screen and (device-width: 375px) and (device-height : 667px) {
-        font-size: 35px;
-        width: 120px;
-    }
-
-    @media screen and (device-width: 375px) and (device-height: 812px){
+    @media screen and (device-width: 375px){
         font-size: 35px;
         width: 110px;
     }
 
-    @media screen and (device-width: 414px) and (device-height : 736px){
+    @media screen and (device-width: 414px){
         font-size: 40px;
         width: 120px;
     }
@@ -252,7 +227,7 @@ export const Amateur = styled.p`
         width: 170px;
     }
 
-    @media screen and (width: 2560px) and (height: 944px){
+    @media screen and (width: 2560px){
         font-size: 130px;
     }
 `;
@@ -265,13 +240,7 @@ export const FnBText = styled.p`
     top: 950px;
     left: 265px;
 
-    @media screen and (device-width: 375px) and (device-height : 667px) {
-        font-size: 17px;
-        top: 950px;
-        left: 30px;
-    }
-
-    @media screen and (device-width: 375px) and (device-height: 812px){
+    @media screen and (device-width: 375px){
         font-size: 18px;
         top: 1230px;
         left: 30px;
@@ -289,18 +258,18 @@ export const FnBText = styled.p`
         left: 15px;
     }
 
-    @media screen and (width: 1280px) and (height:800px){
+    @media screen and (width: 1280px){
         font-size: 70px;
         top: 1040px;
         left: 50px;
     }
 
-    @media screen and (width: 1280px) and (height: 944px){
+    @media screen and (width: 1280px){
         top: 1270px;
         left: 227px;
     }
 
-    @media screen and (width: 2560px) and (height: 944px){
+    @media screen and (width: 2560px){
         font-size: 80px;
         top: 1200px;
         left: 443px;
@@ -317,11 +286,11 @@ export const SecondLineTexts = styled.div`
     height: 30vh;
     width: 100%;
 
-    @media screen and (device-width: 375px) and (device-height: 812px){
+    @media screen and (device-width: 375px){
         height: 10vh;
     }
 
-    @media screen and (device-width: 414px) and (device-height : 736px){
+    @media screen and (device-width: 414px){
         height: 20vh;
         width: 100vw;
         justify-content: space-evenly;
@@ -332,15 +301,11 @@ export const Avid = styled.p`
     font-family: RomanaEF-Light;
     font-size: 80px;
 
-    @media screen and (device-width: 375px) and (device-height : 667px) {
+    @media screen and (device-width: 375px){
         font-size: 35px;
     }
 
-    @media screen and (device-width: 375px) and (device-height: 812px){
-        font-size: 35px;
-    }
-
-    @media screen and (device-width: 414px) and (device-height : 736px){
+    @media screen and (device-width: 414px){
         font-size: 45px;
         width: 95px;
     }
@@ -350,7 +315,7 @@ export const Avid = styled.p`
         width: 150px;
     }
 
-    @media screen and (width: 2560px) and (height: 944px){
+    @media screen and (width: 2560px){
         font-size: 130px;
     }
 `;
@@ -361,19 +326,15 @@ export const AndChar = styled.p`
     font-size: 85px;
     color: #DAD5C9;
 
-    @media screen and (device-width: 375px) and (device-height : 667px) {
+    @media screen and (device-width: 375px){
         font-size: 50px;
     }
 
-    @media screen and (device-width: 375px) and (device-height: 812px){
-        font-size: 50px;
-    }
-
-    @media screen and (device-width: 414px) and (device-height : 736px){
+    @media screen and (device-width: 414px){
         font-size: 60px;
     }
 
-    @media screen and (width: 2560px) and (height: 944px){
+    @media screen and (width: 2560px){
         font-size: 110px;
     }
 `;
@@ -382,17 +343,12 @@ export const LifeLong = styled.p`
     font-family: RomanaEF-Book;
     font-size: 85px;
 
-    @media screen and (device-width: 375px) and (device-height : 667px) {
-        font-size: 40px;
-        width: 120px;
-    }
-
-    @media screen and (device-width: 375px) and (device-height: 812px){
+    @media screen and (device-width: 375px){
         font-size: 40px;
         width: 125px;
     }
 
-    @media screen and (device-width: 414px) and (device-height : 736px){
+    @media screen and (device-width: 414px){
         font-size: 50px;
         width: 150px;
     }
