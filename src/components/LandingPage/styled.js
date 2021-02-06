@@ -35,7 +35,7 @@ export const KimzPicDiv = styled.div`
 `;
 
 export const KimzImg = styled.img`
-    display: block; 
+    object-fit: cover;
 
     @media screen and (devide-width: 375px){
         display: block;
