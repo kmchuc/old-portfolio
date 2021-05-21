@@ -57,7 +57,7 @@ const Works = () => {
           <WorkTitle href='https://tracybday.herokuapp.com/#/'>Happy Birthday Tracy</WorkTitle>
           <PositionTitle>Head Engineer</PositionTitle>
           <WorkDescrip>
-            Since I couldn't see my sister for her birthday this year, I decided to use my newfound skills to create a message board for all of her loved ones to leave a message for her on her special day. Happy Birthday Tracy is a full stack web application using a Flask back end framework written in Python and a front end framework using ReactJS and styled using the styled components React library. 
+            Since I couldn't see my sister for her birthday this year, I decided to use my newfound skills to create a message board for all of her loved ones to leave a message for her on her special day. Happy Birthday Tracy is a full stack web application using a Flask backend framework written in Python and a front end framework using ReactJS and styled using the styled components React library. 
           </WorkDescrip>
         </WorksTextDiv>
       </WorksDiv>

@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import './App.css';
 import { HashRouter, Route, Switch } from 'react-router-dom';
 import Sidebar from './components/Sidebar';
 import Navbar from './components/Navbar/index';
