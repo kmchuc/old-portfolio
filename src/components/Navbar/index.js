@@ -36,7 +36,7 @@ const Navbar = ({ toggle }) => {
 
     return (
         <>
-            <Nav scrollNav={scrollNav}>
+            <Nav scrollNav={scrollNav} >
                 <NavbarContainer>
                     <NavLogo to='/' onClick={toggleHome}><NavLogoImg src={logo} alt='logo' /></NavLogo>
                     <MobileIcon onClick={toggle}>
@@ -45,16 +45,16 @@ const Navbar = ({ toggle }) => {
                         <NavMenu>
                                 <NavItems>
                                     <NavLinks to='works' smooth={true} duration={900} spy={true} exact='true'
-                                    >works<NavSubItems>some projects</NavSubItems></NavLinks>
+                                    >works<NavItems fontSize={"15px"} margin={"8px 0 0 0"}>some projects</NavItems></NavLinks>
                                 </NavItems>
                                 <NavItems>
-                                    <NavLinks to='quaran-tings' smooth={true} duration={900} spy={true} exact='true'>quanran-tings<NavSubItems>to pass the time</NavSubItems></NavLinks>
+                                    <NavLinks to='quaran-tings' smooth={true} duration={900} spy={true} exact='true'>quanran-tings<NavItems fontSize={"15px"} margin={"8px 0 0 0"}>to pass the time</NavItems></NavLinks>
                                 </NavItems>
                                 <NavItems>
-                                    <NavLinks to='kim.' smooth={true} duration={900} spy={true} exact='true'>kim.<NavSubItems>about me</NavSubItems></NavLinks>
+                                    <NavLinks to='kim.' smooth={true} duration={900} spy={true} exact='true'>kim.<NavItems fontSize={"15px"} margin={"8px 0 0 0"}>about me</NavItems></NavLinks>
                                 </NavItems>
                                 <NavItems>
-                                    <NavLinks to='contactme' smooth={true} duration={900} spy={true} exact='true'>contact me<NavSubItems>I'm interesting</NavSubItems></NavLinks>
+                                    <NavLinks to='contactme' smooth={true} duration={900} spy={true} exact='true'>contact me<NavItems fontSize={"15px"} margin={"8px 0 0 0"}>I'm interesting</NavItems></NavLinks>
                                 </NavItems>
                         </NavMenu>
                 </NavbarContainer>

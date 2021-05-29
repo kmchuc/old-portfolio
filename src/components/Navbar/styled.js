@@ -1,15 +1,18 @@
-import styled from 'styled-components';
+import styled, { css } from 'styled-components';
 import { Link as LinkR } from 'react-router-dom';
 import { Link as LinkS } from 'react-scroll';
 
+const alignCenter = css`
+    display: flex;
+    align-items: center;
+    justify-content: center;
+`;
+
 export const Nav = styled.nav`
     background: ${({ scrollNav }) => (scrollNav ? 'transparent' : 'transparent')};
-    display: flex;
     height: 130px;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
-    font-size: 1rem;
+    ${alignCenter};
+    font-size: 12px;
     position: sticky;
     top: 10px;
     z-index: 10;
@@ -23,21 +26,17 @@ export const NavbarContainer = styled.div`
     display: flex;
     height: 100%;
     z-index: 1;
-    width: 95%;
+    width: 100vw;
+    padding: 0 2rem; 
 `;
 
 export const NavLogo = styled(LinkR)`
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    ${alignCenter}
     cursor: pointer;
-    font-size: 1.5rem;
     text-decoration: none;
-    font-weight: bold;
 
     @media screen and (max-width: 768px) {
-        display: block;
-        margin: auto;
+        width: 100%; 
     }
 `;
 
@@ -45,7 +44,6 @@ export const NavLogoImg = styled.img`
     height: 80px;
     width: 100px;
     max-width: 92px;
-    text-align: center;
 `;
 
 export const MobileIcon = styled.div`
@@ -69,7 +67,6 @@ export const NavMenu = styled.ul`
     justify-content: space-between;
     align-items: center;
     list-style: none;
-    text-align: center;
     
     @media screen and (max-width: 768px) {
         display: none;
@@ -78,15 +75,9 @@ export const NavMenu = styled.ul`
 
 export const NavItems = styled.li`
     font-family: GTWalsheimPro-Light;
-    font-size: 28px;
-`;
-
-export const NavSubItems = styled.p`
-    margin-top: 8px;
-    margin-bottom: 0px;
-    font-family: GTWalsheimPro-Light;
-    font-size: 15px;
-`;
+    font-size: ${props => props.fontSize || "28px"};
+    margin: ${props => props.margin || "0px"}; 
+`
 
 export const NavLinks = styled(LinkS)`
     display: flex;
