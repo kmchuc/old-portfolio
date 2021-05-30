@@ -9,12 +9,12 @@ const alignCenter = css`
 `;
 
 export const Nav = styled.nav`
-    background: ${({ scrollNav }) => (scrollNav ? 'transparent' : 'transparent')};
-    height: 130px;
+    background: ${({ scrollNav }) => (scrollNav ? 'white' : 'white')};
+    height: 17vh;
     ${alignCenter};
     font-size: 12px;
     position: sticky;
-    top: 10px;
+    top: 0px;
     z-index: 10;
 
     @media screen and (max-width: 960px) {

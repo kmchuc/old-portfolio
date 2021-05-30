@@ -41,6 +41,7 @@ export const SidebarMenu = styled.ul`
     grid-template-rows: repeat(5, 100px);
     text-align: center;
     font-family: GTWalsheimPro-Light;
+    padding: 0; 
 
     @media screen and (max-width: 480px) {
         grid-template-rows: repeat(6, 60px);

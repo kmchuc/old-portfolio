@@ -1,49 +1,23 @@
 import React from 'react';
+import Descript from '../Descript/Descript';
 import KimzPic from './kimzpic.jpg';
 import {
   EntireLandingPageContainer,
   LandingPageContainer,
-  KimzPicDiv,
   KimzImg,
-  KimberlyText,
-  ChucText,
-  FunctionsText,
-  SoftwareEnginerDiv,
-  FnBText,
-  SoftwareEngineerText,
-  Character,
-  Amateur,
-  SecondLineTexts,
-  Avid,
-  AndChar,
-  LifeLong
+  NameText,
 } from './styled';
 
 const LandingPage = () => {
   return(
     <EntireLandingPageContainer id='home'>
       <LandingPageContainer>
-          <KimzPicDiv>
+          <NameText top={'35px'} left={'380px'}>Kimberly</NameText>
             <KimzImg src={KimzPic} alt='KimzPic'/>
-          </KimzPicDiv>
-          <KimberlyText>Kimberly</KimberlyText>
-          <ChucText>Chuc</ChucText>
+          <NameText top={'370px'} left={'850px'}>Chuc</NameText>
       </LandingPageContainer>
-      <FunctionsText>
-        <SoftwareEnginerDiv>
-          <FnBText>frontend & backend</FnBText>
-          <SoftwareEngineerText>Software Engineer</SoftwareEngineerText>
-          <Character>/</Character>
-          <Amateur>Amateur Web Designer</Amateur>
-        </SoftwareEnginerDiv>
-        <SecondLineTexts>
-          <Avid>Avid Baker</Avid>
-          <AndChar>&</AndChar>
-          <LifeLong>Lifelong Learner</LifeLong>
-        </SecondLineTexts>
-      </FunctionsText>
-    </EntireLandingPageContainer>
-  )
+      <Descript />
+    </EntireLandingPageContainer>  )
 }
 
 export default LandingPage;

@@ -37,7 +37,7 @@ const Works = () => {
           </WorkDescrip>
         </WorksTextDiv>
       </WorksDiv>
-      <WorksDiv>
+      <WorksDiv direction={'column'}>
         <WorksTextDiv>
           <WorkTitle href='https://github.com/Hackbright-Covid-19-Hackathon/hack-covid-19'>
             Best Neighbor

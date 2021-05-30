@@ -1,21 +1,23 @@
-import styled from 'styled-components';
+import styled, { css } from 'styled-components';
+
+const general = css`
+    display: flex;
+    align-items: center;
+    justify-content: center;
+`;
 
 export const WorksContainer = styled.div`
-    display: flex;
+    ${general}
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
     position: relative;
     z-index: 1;
 `;
 
 export const WorksTitle = styled.div`
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    ${general};
     font-family: Schnyder M Demi;
     font-size: 100px;
-    height: 100vh;
+    height: 83vh;
     width: 100%;
     background-color: #dad5c9;
 `;
@@ -28,27 +30,17 @@ export const WorksDiv = styled.div`
     height: 100vh;
     width: 100%;
 
-    @media screen and (max-width: 480px) {
-        flex-direction: column;
-    }
-
     @media screen and (max-width: 768px) {
-        flex-direction: column;
+        flex-direction: ${props => props.direction || "column-reverse"};
+        margin-bottom: 30px;
     }
 `;
 
 export const WorksImg = styled.div`
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    ${general};
     height: 100vh;
     width: 50%;
     background-color: #dad5c9;
-
-    @media screen and (max-width: 480px) {
-        height: 50vh;
-        width: 100%;
-    }
 
     @media screen and (max-width: 768px) {
         height: 50vh;
@@ -64,18 +56,11 @@ export const InformUsImg = styled.img`
 `;
 
 export const WorksTextDiv = styled.div`
-    display: flex;
+    ${general};
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
     margin: auto;
     height: 80vh;
     width: 40vw;
-    
-    @media screen and (max-width: 480px) {
-        height: 100vh;
-        width: 95%;
-    }
 
     @media screen and (max-width: 768px) {
         height: 100vh;
@@ -88,6 +73,7 @@ export const WorkTitle = styled.a`
     font-family: RomanaEF-Book;
     font-size: 25px;
     color: black;
+    padding: 10px;
 `;
 
 export const PositionTitle = styled.p`
@@ -102,12 +88,9 @@ export const WorkDescrip = styled.p`
     font-family: Copernicus-Book;
     font-size: 16px;
 
-    @media screen and (max-width: 480px){
-        text-align: center;
-    }
-
     @media screen and (max-width: 768px) {
         text-align: center;
+        padding: 0 20px;
     }
 `;
 
