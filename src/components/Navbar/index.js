@@ -10,7 +10,6 @@ import {
     MobileIcon,
     NavMenu,
     NavItems,
-    NavSubItems,
     NavLinks
 } from './styled';
 
