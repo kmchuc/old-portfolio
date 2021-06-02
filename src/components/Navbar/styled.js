@@ -27,7 +27,7 @@ export const NavbarContainer = styled.div`
     height: 100%;
     z-index: 1;
     width: 100vw;
-    padding: 0 2rem; 
+    padding: 0 2rem;
 `;
 
 export const NavLogo = styled(LinkR)`

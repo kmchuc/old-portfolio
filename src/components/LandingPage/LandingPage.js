@@ -12,12 +12,13 @@ const LandingPage = () => {
   return(
     <EntireLandingPageContainer id='home'>
       <LandingPageContainer>
-          <NameText top={'35px'} left={'380px'}>Kimberly</NameText>
+          <NameText top={'85px'} left={'400px'}>Kimberly</NameText>
             <KimzImg src={KimzPic} alt='KimzPic'/>
-          <NameText top={'370px'} left={'850px'}>Chuc</NameText>
+          <NameText top={'420px'} left={'830px'}>Chuc</NameText>
       </LandingPageContainer>
       <Descript />
-    </EntireLandingPageContainer>  )
+    </EntireLandingPageContainer>  
+    )
 }
 
 export default LandingPage;

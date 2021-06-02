@@ -5,8 +5,8 @@ export const EntireLandingPageContainer = styled.div`
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 100vw;
-    height: 100%; 
+    width: 98vw;
+    height: 100%;
 `;
 
 export const LandingPageContainer = styled.div`
@@ -16,8 +16,8 @@ export const LandingPageContainer = styled.div`
     align-items: center;
     z-index: 1;
     height: 83vh;
-    width: 100vw;
-    margin: 0; 
+    width: 95vw;
+    margin: 0;
 `;
 
 export const KimzImg = styled.img`
@@ -31,7 +31,9 @@ export const NameText = styled.p`
     font-family: Schnyder M Demi;
     font-size: 90px;
     line-height: 112px;
-    color: black;
+    -webkit-text-stroke-width: 0.8px;
+    -webkit-text-stroke-color: black;
+    -webkit-text-fill-color: white;
     top: ${props => props.top};
     left: ${props => props.left};
 
