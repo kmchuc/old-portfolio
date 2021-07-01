@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.682c81e2.chunk.css",
+    "main.js": "/static/js/main.49585fdf.chunk.js",
+    "main.js.map": "/static/js/main.49585fdf.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.73929fa6.js",
+    "runtime-main.js.map": "/static/js/runtime-main.73929fa6.js.map",
+    "static/js/2.c74cbee6.chunk.js": "/static/js/2.c74cbee6.chunk.js",
+    "static/js/2.c74cbee6.chunk.js.map": "/static/js/2.c74cbee6.chunk.js.map",
+    "static/js/3.eb3fa22b.chunk.js": "/static/js/3.eb3fa22b.chunk.js",
+    "static/js/3.eb3fa22b.chunk.js.map": "/static/js/3.eb3fa22b.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.682c81e2.chunk.css.map": "/static/css/main.682c81e2.chunk.css.map",
+    "static/js/2.c74cbee6.chunk.js.LICENSE.txt": "/static/js/2.c74cbee6.chunk.js.LICENSE.txt",
+    "static/media/BestNeighbor.25f27916.png": "/static/media/BestNeighbor.25f27916.png",
+    "static/media/index.css": "/static/media/Schnyder S Light.314a1213.otf",
+    "static/media/final_logo.2cb22661.png": "/static/media/final_logo.2cb22661.png",
+    "static/media/kimzpic.1a3159e7.jpg": "/static/media/kimzpic.1a3159e7.jpg",
+    "static/media/kimzpic.25f2b0c1.jpg": "/static/media/kimzpic.25f2b0c1.jpg",
+    "static/media/tracysbday.d87c23bc.png": "/static/media/tracysbday.d87c23bc.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.73929fa6.js",
+    "static/js/2.c74cbee6.chunk.js",
+    "static/css/main.682c81e2.chunk.css",
+    "static/js/main.49585fdf.chunk.js"
+  ]
+}
