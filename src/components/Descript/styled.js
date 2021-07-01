@@ -1,12 +1,20 @@
-import styled from 'styled-components';
+import styled, { css } from 'styled-components';
+
+const standard = css`
+    display: flex;
+    justify-content: center;
+    align-content: center;
+`;
 
 export const FunctionsText = styled.div`
-    display: flex;
+    ${standard}
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    align-content: center;
     height: 100vh;
+
+    @media screen and (device-width: 375px) {
+        width: 100vw;
+    }
 `;
 
 export const SoftwareEnginerDiv = styled.div`
@@ -17,6 +25,10 @@ export const SoftwareEnginerDiv = styled.div`
     align-items: center;
     height: 20vh;
     width: 100%;
+
+    @media screen and (device-width: 375px) {
+        padding-bottom: 50px;
+    }
 
     @media screen and (device-width: 414px) {
         justify-content: space-evenly;
@@ -98,13 +110,13 @@ export const FnBText = styled.p`
     font-family: RomanaEF-Book;
     font-size: 50px;
     color: #DAD5C9;
-    top: 950px;
-    left: 265px;
+    top: 820px;
+    left: 310px;
 
     @media screen and (device-width: 375px){
-        font-size: 18px;
-        top: 1230px;
-        left: 30px;
+        font-size: 20px;
+        top: 770px;
+        left: 20px;
     }
 
     @media screen and (device-width: 414px){
@@ -138,11 +150,9 @@ export const FnBText = styled.p`
 `;
 
 export const SecondLineTexts = styled.div`
-    display: flex;
-    justfiy-content: center;
+    ${standard}
     flex-direction: row;
     align-items: center;
-    align-content: center;
     justify-content: space-evenly;
     height: 30vh;
     width: 100%;

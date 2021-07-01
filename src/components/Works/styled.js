@@ -41,7 +41,7 @@ export const WorksImg = styled.div`
     height: 100vh;
     width: 50%;
     background-color: #dad5c9;
-
+    
     @media screen and (max-width: 768px) {
         height: 50vh;
         width: 100%;
@@ -53,6 +53,11 @@ export const InformUsImg = styled.img`
     position: absolute;
     height: 100px;
     width: 300px;
+
+    @media screen and (max-width: 768px) {
+        height: auto;
+        width: 70%;
+    }
 `;
 
 export const WorksTextDiv = styled.div`
@@ -100,14 +105,9 @@ export const BestNeighborImg = styled.img`
     height: 300px;
     width: 490px;
 
-    @media screen and (max-width: 480px) {
-        height: auto;
-        width: 100%;
-    }
-
     @media screen and (max-width: 768px) {
         height: auto;
-        width: 100%;
+        width: 70%;
     }
 `;
 
@@ -119,6 +119,6 @@ export const TracysbdayImg = styled.img`
 
     @media screen and (max-width: 480px) {
         height: auto;
-        width: 100%;
+        width: 70%;
     }
 `;

@@ -30,7 +30,7 @@ export const NameText = styled.p`
     position: absolute;
     font-family: Schnyder M Demi;
     font-size: 90px;
-    line-height: 112px;
+    line-height: 100px;
     -webkit-text-stroke-width: 0.8px;
     -webkit-text-stroke-color: black;
     -webkit-text-fill-color: white;
